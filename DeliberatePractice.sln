@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliberatePractice", "DeliberatePractice\DeliberatePractice.csproj", "{80533526-040C-4069-8E14-3739E5EC2147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliberatePracticeDefault", "DeliberatePracticeDefault\DeliberatePracticeDefault.csproj", "{1CB93FF7-3BC3-4663-8C0F-039E044BC685}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80533526-040C-4069-8E14-3739E5EC2147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80533526-040C-4069-8E14-3739E5EC2147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80533526-040C-4069-8E14-3739E5EC2147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80533526-040C-4069-8E14-3739E5EC2147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB93FF7-3BC3-4663-8C0F-039E044BC685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB93FF7-3BC3-4663-8C0F-039E044BC685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB93FF7-3BC3-4663-8C0F-039E044BC685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB93FF7-3BC3-4663-8C0F-039E044BC685}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
