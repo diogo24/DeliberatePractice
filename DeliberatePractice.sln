@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliberatePractice", "Delib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliberatePracticeDefault", "DeliberatePracticeDefault\DeliberatePracticeDefault.csproj", "{1CB93FF7-3BC3-4663-8C0F-039E044BC685}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliberatePracticeAurelia", "Aurelia\DeliberatePracticeAurelia.csproj", "{1A563D51-495D-4C59-BD9F-72FC520BB7AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1CB93FF7-3BC3-4663-8C0F-039E044BC685}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CB93FF7-3BC3-4663-8C0F-039E044BC685}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CB93FF7-3BC3-4663-8C0F-039E044BC685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A563D51-495D-4C59-BD9F-72FC520BB7AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A563D51-495D-4C59-BD9F-72FC520BB7AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A563D51-495D-4C59-BD9F-72FC520BB7AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A563D51-495D-4C59-BD9F-72FC520BB7AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
