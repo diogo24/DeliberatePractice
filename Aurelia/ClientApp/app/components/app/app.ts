@@ -27,7 +27,16 @@ export class App {
             moduleId: '../fetchdata/fetchdata',
             nav: true,
             title: 'Fetch data'
-        }]);
+        },
+         {
+             route: 'diary-Log',
+            name: 'diaryLog',
+            settings: { icon: 'th-list' },
+            moduleId: '../DiaryLog/diaryLog',
+            nav: true,
+            title: 'Diary Log'
+        }
+        ]);
 
         this.router = router;
     }

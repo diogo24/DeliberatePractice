@@ -1,0 +1,24 @@
+﻿<template>
+    <h1>Dairy Logs</h1>
+
+    <p if.bind="!dailyLogs"><em>Loading...</em></p>
+
+    <table if.bind="dailyLogs" class="table">
+        <thead>
+            <tr>
+                <th>Action</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody >
+            <tr repeat.for="log of dailyLogs">
+                <td>${ log.action }</td>
+                <td>${ log.startDate }</td>
+                <td>${ log.endDate }</td>
+                <td>${ log.notes }</td>
+            </tr>
+        </tbody>
+    </table>
+</template>
